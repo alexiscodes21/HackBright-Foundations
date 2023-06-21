@@ -226,7 +226,3 @@ console.log('New Total: ', newTotal)
 
 let savings = ((total - newTotal) / total) * 100;
 console.log(savings);
-
-
-
-
