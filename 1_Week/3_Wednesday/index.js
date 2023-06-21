@@ -16,9 +16,6 @@
     each other. 
 */
 
-
-
-
 ///// PROBLEM 1 /////
 /*
     Create a variable that will store the download 
@@ -95,8 +92,6 @@ let faveDrink = "smoothie";
     be sure to use a keyword that will prevent change.
 */
 
-// CODE HERE
-
 const private = true;
 
 ///// PROBLEM 6 /////
@@ -124,8 +119,6 @@ const private = true;
         let appleTv = 10;
 */
 
-// CODE HERE
-
 let netflix = 15;
 let hulu = 7;
 let disneyPlus = 5;
@@ -143,9 +136,8 @@ let peacock = 10;
     Then console log total to see the value.
 */
 
-// CODE HERE
-
 let total = netflix + hulu + disneyPlus + youtubePremium + peacock;
+console.log(total);
 
 ///// PROBLEM 8 /////
 /*
@@ -164,11 +156,9 @@ let total = netflix + hulu + disneyPlus + youtubePremium + peacock;
         appleTv -= 5
 */
 
-// CODE HERE
-
 hulu -= 7;
 peacock -= 5;
-netflix -= 8;
+netflix -= 7;
 
 ///// PROBLEM 9 /////
 /*
@@ -181,10 +171,7 @@ netflix -= 8;
     added together.
 */
 
-// CODE HERE
-
-newTotal = netflix + hulu + disneyPlus + youtubePremium + peacock;
-
+let newTotal = netflix + hulu + disneyPlus + youtubePremium + peacock;
 
 ///// PROBLEM 9: Bonus Section /////
 /*
@@ -237,10 +224,7 @@ console.log('New Total: ', newTotal)
     15%. 
 */
 
-// CODE HERE
-
-let savings = total - newTotal;
-
+let savings = ((total - newTotal) / total) * 100;
 console.log(savings);
 
 
