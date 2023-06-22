@@ -1,4 +1,4 @@
-for (i = 0; i < 51; i++) {
+for (let i = 0; i < 51; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         console.log('fizzbuzz')
     } else if (i % 3 === 0) {
